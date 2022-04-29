@@ -25,13 +25,17 @@
             ><span class="logo-text">Web</span><span class="logo">Studio</span>
           </a>
 
-          <ul class="site-nav nav-link">
-            <li><a href="./portfolio.html" class="link-current">Студия</a></li>
+          <!-- <div class="nav-link"> -->
+          <ul class="site-nav">
+            <li>
+              <a href="./portfolio.html" class="link-current">Студия</a>
+            </li>
             <li>
               <a href="./portfolio.html" class="link-portfolio">Портфолио</a>
             </li>
             <li><a href="" class="link-contact">Контакты</a></li>
           </ul>
+          <!-- </div> -->
         </nav>
 
         <ul class="contact-nav">
@@ -64,7 +68,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button-primary">Заказать услугу</button>
+          <button type="button" class="button-primary" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
 
@@ -132,12 +138,15 @@
           <h2 class="work-list">Чем мы занимаемся</h2>
           <ul class="work-pfoto work-img">
             <li>
-              <img
-                src="./images/box1.jpg"
-                alt="Компьютер"
-                width="370"
-                height="294"
-              />
+              <div class="work-top-wrap">
+                <img
+                  src="./images/box1.jpg"
+                  alt="Компьютер"
+                  width="370"
+                  height="294"
+                />
+                <p class="work-top-text">Десктопные приложения</p>
+              </div>
             </li>
             <li>
               <img
@@ -481,12 +490,11 @@
         </div>
       </div>
     </footer>
-    <!-- <button data-modal-open>Открытие модального окна</button> -->
-    <div class="backdrop is-hidden">
-      <!-- <p>Lorem ipsum dolor sit amet.</p> -->
-      <!-- <button data-modal-close>Закрыть</button> -->
+
+    <div class="backdrop is-hidden" data-modal></div>
+    <div class="modal">
+      <button type="button" class="modal-close-btn" data-modal-close>X</button>
     </div>
-    <div class="modal"></div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
