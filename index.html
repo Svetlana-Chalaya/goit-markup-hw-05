@@ -25,17 +25,19 @@
             ><span class="logo-text">Web</span><span class="logo">Studio</span>
           </a>
 
-          <!-- <div class="nav-link"> -->
-          <ul class="site-nav">
-            <li>
-              <a href="./portfolio.html" class="link-current">Студия</a>
-            </li>
-            <li>
-              <a href="./portfolio.html" class="link-portfolio">Портфолио</a>
-            </li>
-            <li><a href="" class="link-contact">Контакты</a></li>
-          </ul>
-          <!-- </div> -->
+          <div clacc="nav-link">
+            <ul class="site-nav">
+              <li>
+                <a href="./portfolio.html" class="link-current">Студия</a>
+              </li>
+              <li>
+                <a href="./portfolio.html" class="link-portfolio">Портфолио</a>
+              </li>
+              <li>
+                <a href="" class="link-contact">Контакты</a>
+              </li>
+            </ul>
+          </div>
         </nav>
 
         <ul class="contact-nav">
@@ -149,20 +151,26 @@
               </div>
             </li>
             <li>
-              <img
-                src="./images/box2.jpg"
-                alt="Телефон"
-                width="370"
-                height="294"
-              />
+              <div class="work-top-wrap">
+                <img
+                  src="./images/box2.jpg"
+                  alt="Телефон"
+                  width="370"
+                  height="294"
+                />
+                <p class="work-top-text">Мобильные приложения</p>
+              </div>
             </li>
             <li>
-              <img
-                src="./images/box3.jpg"
-                alt="Планшет"
-                width="370"
-                height="294"
-              />
+              <div class="work-top-wrap">
+                <img
+                  src="./images/box3.jpg"
+                  alt="Планшет"
+                  width="370"
+                  height="294"
+                />
+                <p class="work-top-text">Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -491,9 +499,12 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal></div>
-    <div class="modal">
-      <button type="button" class="modal-close-btn" data-modal-close>X</button>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          X
+        </button>
+      </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
