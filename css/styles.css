@@ -113,6 +113,7 @@ a {
 .link.current:hover,
 .link.current:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-current:hover::after,
@@ -146,6 +147,7 @@ a {
 .link-portfolio:hover,
 .link-portfolio:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-portfolio:hover::after,
@@ -178,6 +180,7 @@ a {
 .link-contact:hover,
 .link-contact:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-contact:hover::after,
@@ -225,11 +228,13 @@ a {
 .mailto:hover,
 .mailto:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mailto:hover .mailto-icon,
 .mailto:focus .mailto-icon {
   fill: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone {
@@ -255,11 +260,13 @@ a {
 .phone:hover,
 .phone:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone:hover .phone-icon,
 .phone:focus .phone-icon {
   fill: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*Стили для index.html*/
@@ -339,6 +346,7 @@ a {
 .button-primary:hover,
 .button-primary:focus {
   background-color: #188ce8;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*-----Характеристика-----*/
@@ -533,11 +541,13 @@ a {
 .title-soc-link:hover,
 .title-soc-link:focus {
   background-color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title-soc-link:hover .title-soc-icon,
 .title-soc-link:focus .title-soc-icon {
   fill: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*--------Постоянные клиенты------*/
@@ -576,16 +586,19 @@ a {
 .logo-companies-icon:hover,
 .logo-companies-icon:focus {
   fill: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-companies-link:hover,
 .logo-companies-link:focus {
   border-color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-companies-link:hover .logo-companies-icon,
 .logo-companies-link:focus .logo-companies-icon {
   fill: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-companies-item:not(:last-child) {
@@ -692,11 +705,13 @@ footer {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
   background-color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-soc-link:hover .footer-soc-icon,
 .footer-soc-link:focus .footer-soc-icon {
   fill: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*------------Стили для PORTFOLIO.html-------------*/
@@ -719,6 +734,7 @@ footer {
 .link-current-one:hover,
 .link-current-one:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-portfolio-one {
@@ -738,6 +754,7 @@ footer {
 .link-portfolio-one:hover,
 .link-portfolio-one:focus {
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*---HEADER----*/
@@ -781,12 +798,14 @@ header {
 .button:focus {
   color: var(--primary-text-color);
   background-color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-btn:hover,
 .butten-btn:focus {
   color: var(--primary-text-color);
   background-color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*-----Список фото---*/
@@ -823,10 +842,13 @@ header {
   -moz-box-shadow: -1px 11px 4px -3px rgba(66, 68, 90, 0.35);
   box-shadow: -1px 11px 4px -3px rgba(66, 68, 90, 0.35);
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.flex-element:hover .title-top-text {
+.flex-element:hover .title-top-text,
+.flex-element:focus .title-top-text {
   transform: translateY(0%);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*----TITLE-TOP--WRAP---*/
